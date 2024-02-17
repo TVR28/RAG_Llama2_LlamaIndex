@@ -37,22 +37,22 @@ To install and set up the RAG system:
 
 1. Clone the repository:
 
-   \```bash
+   ```
    git clone https://github.com/your-username/rag-system-repo.git
    cd rag-system-repo
-   \```
+   ```
 
-2. Install the required Python packages:
+3. Install the required Python packages:
 
-   \```bash
+   ```
    pip install -r requirements.txt
-   \```
+   ```
 
-3. Log in to your HuggingFace account to access models:
+4. Log in to your HuggingFace account to access models:
 
-   \```bash
+   ```
    huggingface-cli login
-   \```
+   ```
 
    Follow the prompts to enter your API key.
 
@@ -60,16 +60,16 @@ To install and set up the RAG system:
 
 To initialize the system:
 
-1. Prepare your PDF documents in a directory named `data`.
-2. Run the main Python script to start indexing:
+1. Prepare your documents (.pdf, .txt, .csv, .html etc) in a directory named `data`.
+2. Run the main Python script to start indexing (incase running in local PC) or run the .ipynb notebook:
 
    \```bash
    python rag_llm_llama2_llamaindex.py
    \```
-
+   
 ## Usage
 
-Query your indexed PDF documents using natural language:
+Query your indexed documents using natural language:
 
 - Input your questions or search terms in the provided query interface.
 - The system retrieves relevant information from your document collection based on the queries.
@@ -77,7 +77,7 @@ Query your indexed PDF documents using natural language:
 ## Features
 
 - **Efficient Document Indexing**: Uses LlamaIndex for fast, scalable indexing of large document sets.
-- **Powerful Query Capabilities**: Employs the Llama2 model for understanding and processing natural language queries.
+- **Powerful Query Capabilities**: Employs the Llama2 model from Meta for understanding and processing natural language queries.
 - **Flexible Integration**: Designed for seamless operation with HuggingFace's transformers and other ML libraries.
 - **GPU Optimization**: Optimized for T4 GPUs and above for high-speed processing and retrieval.
 
