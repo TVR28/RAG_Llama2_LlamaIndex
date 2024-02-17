@@ -63,9 +63,9 @@ To initialize the system:
 1. Prepare your documents (.pdf, .txt, .csv, .html etc) in a directory named `data`.
 2. Run the main Python script to start indexing (incase running in local PC) or run the .ipynb notebook:
 
-   \```bash
+   ```
    python rag_llm_llama2_llamaindex.py
-   \```
+   ```
    
 ## Usage
 
