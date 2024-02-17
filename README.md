@@ -17,9 +17,19 @@ The Advanced Retrieval Augmented Generation (RAG) System leverages Open Source L
 
 Before setting up the RAG system, ensure you have:
 
-- Python 3.8 or higher
-- A T4 GPU or better (for optimal performance)
-- An active HuggingFace account for API access
+- `Python 3.10`
+- `llama_index`
+- `PyTorch`
+- `pypdf`
+- `transformers`
+- `einops`
+- `accelerate`
+- `langchain`
+- `bitsandbytes`
+- `sentence_transformers`
+- `huggingface_hub`
+- A `T4` GPU or better (for optimal performance)
+- An active HuggingFace token for API access
 
 ## Installation
 
