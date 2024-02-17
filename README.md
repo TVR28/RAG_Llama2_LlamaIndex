@@ -1,4 +1,3 @@
-```
 # Advanced RAG System with Llama2 & LlamaIndex
 
 The Advanced Retrieval Augmented Generation (RAG) System leverages Open Source Llama2 and LlamaIndex, along with HuggingFace, to offer a powerful solution for querying large collections of PDF documents. This README provides comprehensive setup and usage instructions to help you harness the full potential of this system.
@@ -85,4 +84,4 @@ To contribute to the RAG system:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-```
+
