@@ -21,7 +21,7 @@ Before setting up the RAG system, ensure you have:
 
 - `Python 3.10`
 - `llama_index`
-- `PyTorch`
+- `torch`
 - `pypdf`
 - `transformers`
 - `einops`
