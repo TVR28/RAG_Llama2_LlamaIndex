@@ -1,9 +1,10 @@
 # Advanced RAG System with Llama2 & LlamaIndex
 
-The Advanced Retrieval Augmented Generation (RAG) System leverages Open Source Llama2 and LlamaIndex, along with HuggingFace, to offer a powerful solution for querying large collections of PDF documents. This README provides comprehensive setup and usage instructions to help you harness the full potential of this system.
+The Advanced Retrieval Augmented Generation (RAG) System leverages Open Source Llama2 and LlamaIndex, along with HuggingFace, to offer a powerful solution for querying large collections of custom data documents. This README provides comprehensive setup and usage instructions to help you harness the full potential of this system.
 
 Here's the Google Colab Notebook: https://colab.research.google.com/drive/1aOSyEDygYQSMbHxM92Gd4ZdgS7XKIb_i?usp=sharing
 
+The data is a synthetic generated dataset containing information about different personality scores and collection of user queries and corresponding assistant responses. 
 ## Table of Contents
 
 - [Introduction](#advanced-rag-system-with-llama2--llamaindex)
