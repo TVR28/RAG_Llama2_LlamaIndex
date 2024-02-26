@@ -1,5 +1,8 @@
 # Advanced RAG System with Llama2 & LlamaIndex
 
+![image](https://github.com/TVR28/RAG_Llama2_LlamaIndex/assets/91713140/e9086f25-9eed-474c-afa1-da328644a61a)
+
+
 The Advanced Retrieval Augmented Generation (RAG) System leverages Open Source Llama2 and LlamaIndex, along with HuggingFace, to offer a powerful solution for querying large collections of custom data documents. This README provides comprehensive setup and usage instructions to help you harness the full potential of this system.
 
 Here's the Google Colab Notebook: https://colab.research.google.com/drive/1aOSyEDygYQSMbHxM92Gd4ZdgS7XKIb_i?usp=sharing
